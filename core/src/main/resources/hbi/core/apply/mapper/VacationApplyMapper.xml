@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="hbi.core.apply.mapper.VacationApplyMapper">
+    <resultMap id="BaseResultMap" type="hbi.core.apply.dto.VacationApply">
+        <result column="id" property="id" jdbcType="DECIMAL" />
+        <result column="business_key" property="businessKey" jdbcType="VARCHAR" />
+        <result column="user" property="user" jdbcType="VARCHAR" />
+        <result column="type" property="type" jdbcType="VARCHAR" />
+        <result column="starttime" property="starttime" jdbcType="DATE" />
+        <result column="endtime" property="endtime" jdbcType="DATE" />
+        <result column="reason" property="reason" jdbcType="VARCHAR" />
+    </resultMap>
+
+
+</mapper>
